@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <p id="quoted" style="display:block;">A share of {{companyName}} ({{symbol}}) costs ${{latestPrice}}.</p>
+{% endblock %}

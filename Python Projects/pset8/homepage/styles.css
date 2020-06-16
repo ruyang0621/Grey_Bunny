@@ -1,0 +1,221 @@
+/*style for index.html*/
+.name {
+  width:70%;
+  color: #6495ED;
+  text-align: center;
+  font-size:60px;
+  font-family: cursive;
+  background-image: linear-gradient(to bottom right, #87CEEB, #F0FFFF);
+  border:4px solid #1E90FF;
+  border-radius:25px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin:0 auto;
+}
+
+.btn_container {
+  width:70%;
+  background-color:#E6E6FA;
+  font-family: cursive;
+  display:flex;
+  justify-content:space-around;
+  margin:10px auto;
+  border-radius:25px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border:2px dashed #9370DB;
+}
+
+.btn-primary {
+  padding:10px 40px;
+  font-size:20px;
+}
+
+.btn-success {
+  padding:10px 40px;
+  font-size:20px;
+}
+
+.btn-warning {
+  padding:10px 40px;
+  font-size:20px;
+  color:white;
+  background-color:#dc3545;
+  border-color:#dc3545;
+}
+.btn-warning:hover {
+    color:white;
+    background-color:#c82333;
+    border-color:#bd2130;
+}
+
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    color:white;
+    background-color:#c82333;
+    border-color:#bd2130;
+}
+
+.btn-warning.focus, .btn-warning:focus {
+    box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}
+
+.btn-danger {
+  padding:10px 40px;
+  font-size:20px;
+}
+
+.homepage_t {
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  margin:0 auto;
+  border:4px solid #9ACD32;
+  border-radius:25px;
+  background-color:#F5FFFA;
+}
+
+.hp_text {
+  font-family: cursive;
+  text-align:center;
+  color:#DDA0DD;
+  padding:50px;
+}
+
+.hp_img {
+  padding:50px;
+}
+
+/*style for aboutme.html*/
+#hello {
+  width:70%;
+  margin-left:15%;
+  font-family:Georgia, Times, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  color:#20303c;
+  margin-top:3%;
+}
+
+#intro {
+  width:70%;
+  margin-left:15%;
+  font-family:Georgia, Times, serif;
+  color:#20303c;
+}
+
+#ew {
+  width:65%;
+  display:flex;
+  justify-content:space-around;
+  margin-left:15%;
+  font-family:Georgia, Times, serif;
+  color:#20303c;
+}
+
+#de_a {
+  width:426px;
+  text-align:left;
+}
+
+#img_a {
+  width:426px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.btn-group {
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  margin-top:30px;
+  font-family:Georgia, Times, serif;
+}
+
+.btn-danger {
+  background-color:rgba(209, 201, 38, 1);
+  border: solid rgba(209, 201, 38, 1);
+}
+
+.btn-danger:hover {
+  background-color:rgba(97, 208, 212, 1);
+  border:rgba(97, 208, 212, 1);
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: rgba(97, 208, 212, 1);
+    border-color: rgba(97, 208, 212, 1);
+}
+
+.btn-danger:not(:disabled):not(.disabled).active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem;
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    box-shadow: 0 0 0 0rem;
+}
+
+/*style for interest.html*/
+#txt_i {
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  margin-left:10%;
+  font-family:Georgia, Times, serif;
+  color:#20303c;
+}
+
+#name_i {
+  width:70%;
+  margin-left:15%;
+  font-size: 50px;
+  font-weight:900;
+  font-family:Georgia, Times, serif;
+  color:#20303c;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#image_i {
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  margin-left:11%;
+  padding-top:20px;
+}
+
+#btn_i {
+  margin-top:100px;
+  margin-left:150px;
+}
+
+/*style for interest.html*/
+#txt_t {
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  margin-left:10%;
+  font-family:Georgia, Times, serif;
+  font-weight:500;
+  font-size:30px;
+  color:#20303c;
+}
+
+#name_t {
+  width:70%;
+  margin-left:15%;
+  font-size: 50px;
+  font-weight:900;
+  font-family:Georgia, Times, serif;
+  color:#20303c;
+}
+
+.img_tr {
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  margin-left:11%;
+  padding-top:20px;
+}
